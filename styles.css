@@ -1,0 +1,63 @@
+*{
+    width: 100%;
+}
+
+body {
+   
+    background-image:url("./img/chess.jfif");
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+table {
+    width: 400px;
+    height: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 0 auto;
+  
+}
+table th ,table td {
+    height: 2em;
+    border:1px solid  white;
+    text-align: center;
+}
+ th {
+    background: rgb(46, 44, 44);
+    font-family: "Arial, sans-serif";
+    color: rgb(256, 255, 255);
+
+}
+
+table tr:hover {
+    background: #457553;
+    font-size: 17px;
+}
+
+#spam {
+    font-style: italic;
+    font-size: 23px;
+}
+
+tr:nth-child(odd) {
+    background-color:#cac7c7;
+}
+
+tr:nth-child(even) {
+    background-color:#fdfdfd;
+}
+
+#firstrow {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold; 
+    background-image: url("./img/chess1.jpg");
+    background-size: cover;
+}
+
+
+table td {
+    text-align: justify;
+    padding: 0.5px 20px 0.5px 20px;
+    height: 50%;
+}
